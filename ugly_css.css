@@ -1,0 +1,15 @@
+.my_photo {width: 1000px; height: 100px}
+
+body {background-image: url('ugly_background.png')}
+
+span:nth-child(odd) {color: saddlebrown; transform:rotate(90deg); -webkit-transform:rotate(90deg); float: left;}
+
+span:nth-child(even) {color: silver; transform:rotate(180deg); -webkit-transform:rotate(180deg); float: right;}
+
+div.section1 {background-image: 'ugly_background.png'; background-color: blue; color:aliceblue; font-size: 13;}
+
+div.section2 {background-image: url('ugly_background.png'); background-color: crimson; color: aqua, font-size: 55;}
+
+div.section3 {background-image: url('ugly_background.png'); background-color: rgb(255,255,255); color: purple}
+
+div.section4 {background-image: url('ugly_background.png'); background-color: crimson;}
