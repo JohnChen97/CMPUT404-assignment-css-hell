@@ -1,15 +1,26 @@
-.my_photo {width: 1000px; height: 100px}
+body {background-image: url("bad_background_image.jpg"); }
+h0 {color: black; font-size:80px; padding-bottom: 20px;}
+h1 {color: black; font-size:40px;}
+h2 {color: black; font-size:40px;}
+h3 {color: black; font-size:40px;}
+h4 {color: black; font-size:40px;}
+#identity {font-size: 20px; font-style: italic; display: block; margin-bottom: 5px;}
+#current_occupation {font-size: 40px; font-style: italic; display: block; margin-bottom: 5px; margin-top: 10px;}
+#history_Canada {font-size: 33px; font-style: italic; display: block; margin-bottom: 5px;}
+#history_cs {font-size: 90px; font-style: italic; display: block; margin-bottom: 5px; margin-top: 10px;}
+#my_skill {font-size: 82px; font-style: italic; display: block; margin-bottom: 5px;}
+#points_me {font-size: 12px; font-style: italic; display: block; margin-bottom: 5px;}
+.my_photo {width: 243px; height: 900px;border-radius: 50%; position: relative; animation: spin 5s linear infinite;}
+@keyframes spin{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.caption1 {padding-bottom: 200px;}
+div.section_start { display: flex; flex-direction: column; align-items: center; justify-content: end; width: 500px; position: relative; margin:auto;}
+div.section1 { display: flex; flex-direction: column; align-items: left; justify-content: end; width: 500px; position: relative; margin:auto;}
 
-body {background-image: url('ugly_background.png')}
-
-span:nth-child(odd) {color: saddlebrown; transform:rotate(90deg); -webkit-transform:rotate(90deg); float: left;}
-
-span:nth-child(even) {color: silver; transform:rotate(180deg); -webkit-transform:rotate(180deg); float: right;}
-
-div.section1 {background-image: 'ugly_background.png'; background-color: blue; color:aliceblue; font-size: 13;}
-
-div.section2 {background-image: url('ugly_background.png'); background-color: crimson; color: aqua, font-size: 55;}
-
-div.section3 {background-image: url('ugly_background.png'); background-color: rgb(255,255,255); color: purple}
-
-div.section4 {background-image: url('ugly_background.png'); background-color: crimson;}
+.side_bar {display: flex; flex-direction: column;background-color: linear-gradient(red, yellow, green); color: white; width:auto; height: 800px; position: fixed; top:0px; left: 0px;}
+a:nth-child(even){color: white; font-size: 20px; text-decoration: none; line-height: 60px;}
+a:nth-child(odd) {color: blue; font-size: 20px;}
+a:hover {color: red}

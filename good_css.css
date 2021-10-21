@@ -1,4 +1,20 @@
-h1 {padding-bottom: 100px;}
-.my_photo {width: 500px; height: 500px;border-radius: 50%;}
-body
-div {display: flex; flex-direction: column;margin-top: auto; align-items: center}
+body {background-image: url("good_background_image.jpeg"); }
+h0 {color: black; font-size:80px; padding-bottom: 20px;}
+h1 {color: black; font-size:40px;}
+h2 {color: black; font-size:40px;}
+h3 {color: black; font-size:40px;}
+h4 {color: black; font-size:40px;}
+#identity {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px;}
+#current_occupation {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px; margin-top: 10px;}
+#history_Canada {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px;}
+#history_cs {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px; margin-top: 10px;}
+#my_skill {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px;}
+#points_me {font-size: 30px; font-style: italic; display: block; margin-bottom: 5px;}
+.my_photo {width: 500px; height: 500px;border-radius: 50%; position: relative;}
+.caption1 {padding-bottom: 20px;}
+div.section_start { display: flex; flex-direction: column; align-items: center; justify-content: end; width: 500px; position: relative; margin:auto;}
+div.section1 { display: flex; flex-direction: column; align-items: left; justify-content: end; width: 500px; position: relative; margin:auto;}
+
+.side_bar {display: flex; flex-direction: column;background-color: black; color: white; width:auto; height: 800px; position: fixed; top:0px; left: 0px;}
+a {color: white; font-size: 20px; text-decoration: none; line-height: 60px;}
+a:hover {color: red}
