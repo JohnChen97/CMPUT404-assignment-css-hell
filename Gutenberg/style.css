@@ -1,22 +1,42 @@
-body {background-color:khaki; background-image: radial-gradient(orange, yellow, khaki);}
 
-table {background-image: radial-gradient(orange, yellow, khaki); background-color:greenyellow; width: 800px; height: 800px; text-align: center; caption-side: top;  margin-left: auto; margin-right: auto;}
+div.c1, div.c2, div.c3, div.c4, div.c5, div.c6, div.c7, div.c8, div.c9 {left: 25%; color: brown; font-style: italic; text-align: center;}
+.c, .cb {text-align: center;}
+body {padding: 5% 5% 5% 5%; text-align: justify; background-color:burlywood; background-image: linear-gradient(burlywood, khaki);}
 
-a {color: white; font-size: 30px; font-weight: bold;}
+h1, h2 {text-align: center;font-style: normal;font-weight: normal;line-height: 1.5;margin-top: 0.5em;margin-bottom: 0.5em
+        }
 
-a:active {color: purple; font-size: 30px; font-weight: bold;}
+        h1 {
+            font-size: 100px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+            font-style: italic;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            margin: auto;
+        
+        }
 
-a:hover {color: red; font-size: 30px; font-weight: bold;}
+        h2, h3 {
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            text-align: center;
+            margin: auto;
+        }
 
-p {font-family: serif; font-size: 20px; font-weight: normal; font-style: italic;}
+        
 
-h1 {color: green; font-family: 'Times New Roman'; font-size: 60px}
+table {display: flex; flex-direction: column; align-items: center; text-align: center;}  
 
-h1:hover {color:red; background-color: olivedrab; font-weight: bold}
+img {display: block;
+    margin-left: auto;
+    margin-right: auto;}
 
-h2 {color: green; font-family: 'Times New Roman'; font-size: 60px}
+p {font-style: normal; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px;}
 
-h2:hover {color:red; background-color: olivedrab; font-weight: bold}
-
-
-
+a {text-decoration: none; color:darkslateblue; }
+a:hover {color:red;}
+a:active {color: green}
