@@ -1,4 +1,4 @@
-body {background-image: url("good_background_image.jpeg"); }
+body {background-image: url("good_background.jpeg"); }
 h0 {color: black; font-size:80px; padding-bottom: 20px;}
 h1 {color: black; font-size:40px;}
 h2 {color: black; font-size:40px;}
@@ -15,6 +15,6 @@ h4 {color: black; font-size:40px;}
 div.section_start { display: flex; flex-direction: column; align-items: center; justify-content: end; width: 500px; position: relative; margin:auto;}
 div.section1 { display: flex; flex-direction: column; align-items: left; justify-content: end; width: 500px; position: relative; margin:auto;}
 
-.side_bar {display: flex; flex-direction: column;background-color: black; color: white; width:auto; height: 800px; position: fixed; top:0px; left: 0px;}
+.side_bar {display: flex; flex-direction: column;background-color: black; color: white; width:auto; height: 100%; position: fixed; top:0px; left: 0px;}
 a {color: white; font-size: 20px; text-decoration: none; line-height: 60px;}
 a:hover {color: red}
