@@ -27,7 +27,7 @@ Changes in Gutenberg files:
 
 I added an book cover image into the 1.html. I also add book cover captain in 1.html and 2.html. 
 
-I changed the class name of book cover img in 2.html and 3.html in order to help me modify them in my style.css file.
+I changed the class name of book cover img in 2.html and 3.html in order to help me modify them in my style.css file. Their class names are figcenter, figcenter, figc9, inbook1.
 
 I deleted the original css code in the 1.html and 2.html and 3.html files.
 
